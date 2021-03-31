@@ -13,8 +13,11 @@ Complete the simple program in exercise03.py that given an integer value, find t
 
 #ANSWER
 a_integer = (abs(-100))
+
 b_string = str(a_integer)
+
 length = len(b_string)
+
 print(length)
 
 
