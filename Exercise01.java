@@ -31,6 +31,8 @@ public class ExerciseOne {
             //revWord = revWord + word.charAt(word.length() - i - 1);
             revWord = word.charAt(i) + revWord;
         }
+        revWord.replaceAll("\\s", "");
+        word.replaceAll("\\s", "");
         return revWord.toLowerCase().equals(word.toLowerCase());
     }
 }
