@@ -16,7 +16,8 @@ public class ExerciseOne {
     private String reverseString(String word) {
         String revWord = "";
         for (int i = 0; i < word.length(); i++) {
-            revWord = revWord + word.charAt(word.length() - i - 1);
+             //revWord = revWord + word.charAt(word.length() - i - 1);
+            revWord = word.charAt(i) + revWord;
         }
         return revWord;
     }
