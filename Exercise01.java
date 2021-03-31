@@ -31,6 +31,6 @@ public class ExerciseOne {
             //revWord = revWord + word.charAt(word.length() - i - 1);
             revWord = word.charAt(i) + revWord;
         }
-        return revWord.equals(word);
+        return revWord.toLowerCase().equals(word.toLowerCase());
     }
 }
