@@ -11,7 +11,6 @@ Complete the simple program in exercise02.py that finds the value at the nth pos
 ### Exercise Three: Count Digits
 Complete the simple program in exercise03.py that given an integer value, find the number of digits the given value has. For negative values, only count the digits, not the negative sign. For example, given an integer value of 100, the number of digits is three.
 
-#ANSWER
 a_integer = (abs(-100))
 
 b_string = str(a_integer)
